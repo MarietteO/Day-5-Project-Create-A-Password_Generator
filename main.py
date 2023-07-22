@@ -35,6 +35,7 @@ def generate_password(lets, nums, syms):
         scrambled_word += item
     return scrambled_word
 
+
 # Ask the user for the number of letters, numbers, and symbols they want in the password
 num_of_letters = int(ask_about("letters"))
 num_of_numbers = int(ask_about("numbers"))
